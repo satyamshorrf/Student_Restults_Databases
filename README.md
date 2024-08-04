@@ -1,13 +1,18 @@
 # Student_Restults
 This is a result sheet of the Bachelor of Computer Application Sem-II, June 2024 examination held by Bhupendra Narayan Mandal University, Laloo Nagar, Madhepura, Bihar. The sheet displays details of the students such as roll number, name, registration number, marks obtained in different subjects, total marks, and result.
-                                 -:  Classic Output  :-
+
+# Classic Output  
+
 # Classic Page 1 
 ![Screenshot 2024-08-04 194845](https://github.com/user-attachments/assets/72f69e0b-842d-48bb-b5d5-c43032453a3c)
 # Classic Page 2 
 ![Screenshot 2024-08-04 194924](https://github.com/user-attachments/assets/7b435e7a-d792-4a5e-ac35-7696ac659527)
 # Classic Edit Page
 ![Screenshot 2024-08-04 195121](https://github.com/user-attachments/assets/ccd5f1ef-fc7a-4c7f-9139-7efe2af73407)
-                                  -: Simple Output :-
+
+
+# Simple Output 
+
 # Classic Add Page 
 ![Screenshot 2024-08-04 195220](https://github.com/user-attachments/assets/29819aee-26c1-4cb1-9460-1efd1905d57a)
 # Output Page 1
