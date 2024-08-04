@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Username</title>
+</head>
+<body>
+    <h2>You are about to edit this Student : <%= cadet.Name_Of_Candidate %></h2>
+    <form method="post" action="/cadet/<%=user.Roll_No%>?_method=PATCH">
+        <table>
+            <tr>
+                <th>Roll No</th>
+                <td><input type="text" name="Roll_No" value="<%= cadet.Roll_No%>"></td>
+            </tr>
+            <tr>
+                <th>M Theory</th>
+                <td><input type="text" name="M_Theory" value="<%= cadet.M_Theory%>"></td>
+            </tr>
+            <tr>
+                <th>M Internal</th>
+                <td><input type="text" name="M_Internal" value="<%= cadet.M_Internal%>"></td>
+            </tr>
+            <tr>
+                <th>M Total</th>
+                <td><input type="text" name="M_Total" value="<%= cadet.M_Total%>"></td>
+            </tr>
+            <tr>
+                <th>D Theory</th>
+                <td><input type="text" name="D_Theory" value="<%= cadet.D_Theory%>"></td>
+            </tr>
+            <tr>
+                <th>D Internal</th>
+                <td><input type="text" name="D_Internal" value="<%= cadet.D_Internal%>"></td>
+            </tr>
+            <tr>
+                <th>D Total</th>
+                <td><input type="text" name="D_Total" value="<%= cadet.D_Total%>"></td>
+            </tr>
+            <tr>
+                <th>C Theory</th>
+                <td><input type="text" name="C_Theory" value="<%= cadet.C_Theory%>"></td>
+            </tr>
+            <tr>
+                <th>C Internal</th>
+                <td><input type="text" name="C_Internal" value="<%= cadet.C_Internal%>"></td>
+            </tr>
+            <tr>
+                <th>C Total</th>
+                <td><input type="text" name="C_Total" value="<%= cadet.C_Total%>"></td>
+            </tr>
+            <tr>
+                <th>Total</th>
+                <td><input type="text" name="Total" value="<%= cadet.Total%>"></td>
+            </tr>
+            <tr>
+                <th>Com Prac</th>
+                <td><input type="text" name="Com_Prac" value="<%= cadet.Com_Prac%>"></td>
+            </tr>
+            <tr>
+                <th>Aggregate</th>
+                <td><input type="text" name="Aggregate" value="<%= cadet.Aggregate%>"></td>
+            </tr>
+        </table>
+        <input type="password" name="password" placeholder="enter password"/>
+        <button>Edit</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Username</title>
+</head>
+<body>
+    <h2>You are about to delete this Student : <%= user.Name_Of_Candidate %></h2>
+    <form method="post" action="/cadet/<%=user.Registration_No_Year %>?_method=DELETE">
+        <input type="text" name="Registration_No_Year" value="<%= user.Registration_No_Year %>"> <br> <br>
+        <input type="password" name="password" placeholder="enter password"/>  <br> <br>
+        <button>Delete</button>
+    </form>
+</body>
+</html>

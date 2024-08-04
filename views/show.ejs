@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Student</title>
+    <style>
+        table, 
+        th, 
+        td 
+        {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Roll_No</th>
+            <th>Name_Of_Candidate</th>
+            <th>Registration_No_Year</th>
+            <th>M_Theory</th>
+            <th>M_Internal</th>
+            <th>M_Total</th>
+            <th>D_Theory</th>
+            <th>D_Internal</th>
+            <th>D_Total</th>
+            <th>C_Theory</th>
+            <th>C_Internal</th>
+            <th>C_Total</th>
+            <th>Total</th>
+            <th>Com_Prac</th>
+            <th>Aggregate</th>
+            <th>Result</th>
+            <th>  Edit  </th>
+            <th>  Delete  </th>
+            <th>  New  </th>
+         
+
+        </tr>
+        <% for(user of cadets) { %>
+            <tr>
+                <td><%= user.Roll_No %></td>
+                <td><%= user.Name_Of_Candidate %></td>
+                <td><%= user.Registration_No_Year %></td>
+                <td><%= user.M_Theory %></td>
+                <td><%= user.M_Internal %></td>
+                <td><%= user.M_Total %></td>
+                <td><%= user.D_Theory %></td>
+                <td><%= user.D_Internal %></td>
+                <td><%= user.D_Total %></td>
+                <td><%= user.C_Theory %></td>
+                <td><%= user.C_Internal %></td>
+                <td><%= user.C_Total %></td>
+                <td><%= user.Total %></td>
+                <td><%= user.Com_Prac %></td>
+                <td><%= user.Aggregate %></td>
+                <td><%= user.Result %></td>
+             <td>
+                <form method="GET" action="/cadet/<%=user.Roll_No%>/edit">
+                    <button>Edit username</button>
+                </form>
+                </td>
+
+                <td>
+                    <form method="GET" action="/cadet/<%=user.Roll_No%>/delete">
+                        <button>Delete username</button>
+                    </form>
+                    </td>
+
+                    <td>
+                        <form method="GET" action="/cadet/new">
+                            <button>Add New User</button>
+                          </form>
+                        </td>  
+       
+            </tr>
+        <% } %>
+    </table>
+</body>
+</html>
+
