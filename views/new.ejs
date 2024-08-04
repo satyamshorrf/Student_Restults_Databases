@@ -4,6 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add New Student</title>
+    <style>
+
+table {
+  border: 2px solid;
+  background: linear-gradient(to bottom right, rgb(80, 0, 0), rgb(0, 0, 80));
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+table tr {
+  width: 100px;
+  margin: 5px;
+  height: 50px;
+  font-family: Verdana;
+}
+table tr td, table tr th {
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  transition: transform 1s;
+  background: rgba(255, 255, 255, 0.4);
+}
+table tr th {
+  font-size: 22px;
+  text-decoration: underline;
+  border: 1px solid rgba(0, 255, 0, 0.5);
+}
+table tr th:hover {
+  background: rgba(0, 255, 0, 0.5);
+}
+table tr td:nth-child(odd) {
+  border: 1px solid rgba(255, 0, 0, 0.5);
+}
+table tr td:nth-child(even) {
+  border: 1px solid rgba(0, 0, 255, 0.5);
+}
+table tr td:nth-child(odd):hover {
+  background: rgba(255, 0, 0, 0.8);
+  box-shadow: 0 0 8px red;
+}
+table tr td:hover, table tr th:hover {
+  cursor: pointer;
+  transform: scale(1.35, 1.35) translate(80%);
+}
+table tr td:nth-child(even):hover {
+  background: rgba(0, 0, 255, 0.8);
+  box-shadow: 0 0 8px blue;
+}
+
+    </style>
   </head>
   <body>
     <h2>Add New student</h2>
