@@ -9,12 +9,10 @@ This is a result sheet of the Bachelor of Computer Application Sem-II, June 2024
 ![Screenshot 2024-08-04 194924](https://github.com/user-attachments/assets/7b435e7a-d792-4a5e-ac35-7696ac659527)
 # Classic Edit Page
 ![Screenshot 2024-08-04 195121](https://github.com/user-attachments/assets/ccd5f1ef-fc7a-4c7f-9139-7efe2af73407)
-
-
-# Simple Output 
-
 # Classic Add Page 
 ![Screenshot 2024-08-04 195220](https://github.com/user-attachments/assets/29819aee-26c1-4cb1-9460-1efd1905d57a)
+# Simple Output
+
 # Output Page 1
 ![Screenshot 2024-08-04 190809](https://github.com/user-attachments/assets/27e0aa98-9410-4aab-b6c3-296a05d7a0f5)
 
